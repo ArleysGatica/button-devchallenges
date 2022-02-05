@@ -1,0 +1,202 @@
+.Button-1 {
+  display: flex;
+  margin-left: 10%;
+  padding: 10px;
+  cursor: pointer;
+}
+
+.primera {
+  padding: 8px 16px;
+  background: #e0e0e0;
+  box-shadow: 0 2px 3px rgb(51 51 51 / 20%);
+  border-radius: 6px;
+  border: none;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 20px;
+  cursor: pointer;
+  transition: background 0.4s ease-in-out;
+  color: black;
+  font-family: "system-ui";
+  width: 10%;
+  height: 30px;
+}
+
+.primera:hover {
+  background: #aeaeae;
+  color: black;
+}
+
+.Button-2 {
+  display: flex;
+  margin-left: 10%;
+  padding: 10px;
+  cursor: pointer;
+}
+
+.segunda {
+  border: 1px solid #3d5afe;
+  color: #3d5afe;
+  background: #fff;
+  border-radius: 6px;
+  width: 10%;
+  height: 30px;
+  font-style: normal;
+  font-size: 18px;
+  cursor: pointer;
+  line-height: 20px;
+
+  font-family: "system-ui";
+}
+
+.segunda:hover {
+  background: rgba(41, 98, 255, 0.1);
+  color: #3d5afe;
+}
+
+.Button-3 {
+  display: flex;
+  margin-left: 10%;
+  padding: 10px;
+  cursor: pointer;
+}
+
+.tercera {
+  border: 1px solid #3d5afe;
+  color: #3d5afe;
+  background: #fff;
+  border-radius: 6px;
+  width: 10%;
+  height: 30px;
+  font-style: normal;
+  font-size: 18px;
+  cursor: pointer;
+  line-height: 20px;
+  border: none;
+  font-family: "system-ui";
+}
+
+.tercera:hover {
+  background: rgba(41, 98, 255, 0.1);
+  color: #3d5afe;
+}
+
+.Button-4 {
+  display: flex;
+  margin-left: 10%;
+  padding: 10px;
+  cursor: pointer;
+}
+
+.cuarta {
+  padding: 8px 16px;
+  background: #3d5afe;
+  box-shadow: 0 2px 3px rgb(51 51 51 / 20%);
+  border-radius: 6px;
+  border: none;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 20px;
+  cursor: pointer;
+  color: #fff;
+  font-family: "system-ui";
+  width: 10%;
+  height: 30px;
+}
+
+.cuarta:hover {
+  background: #13258a;
+  color: white;
+}
+
+.Button-5 {
+  display: flex;
+  margin-left: 10%;
+  padding: 10px;
+  cursor: pointer;
+}
+
+.quinta {
+  padding: 8px 16px;
+  background: #3d5afe;
+  box-shadow: 0 2px 3px rgb(51 51 51 / 20%);
+  border-radius: 6px;
+  border: none;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 20px;
+  cursor: pointer;
+  color: #fff;
+  font-family: "system-ui";
+  width: 10%;
+  height: 30px;
+}
+
+.quinta:hover {
+  background: #3d5afe;
+  color: white;
+  border: 2px solid #0132b9;
+}
+
+.Button-6 {
+  display: flex;
+  margin-left: 10%;
+  padding: 10px;
+  cursor: pointer;
+}
+
+.sexta {
+  padding: 8px 16px;
+  background: #e0e0e0;
+  box-shadow: 0 2px 3px rgb(51 51 51 / 20%);
+  border-radius: 6px;
+  border: none;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 20px;
+  cursor: pointer;
+  color: #9e9e9e;
+  font-family: "system-ui";
+  width: 10%;
+  height: 30px;
+}
+
+.sexta:hover {
+  color: #9e9e9e;
+  background: none;
+  border-radius: none;
+  transition: background 0.9s ease-in-out;
+}
+
+.Button-7 {
+  display: flex;
+  margin-left: 10%;
+  padding: 10px;
+  cursor: pointer;
+}
+
+.septima {
+  padding: 8px 16px;
+  background: #3d5afe;
+  box-shadow: 0 2px 3px rgb(51 51 51 / 20%);
+  border-radius: 6px;
+  border: none;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 20px;
+  cursor: pointer;
+  color: #fff;
+  font-family: "system-ui";
+  width: 10%;
+  height: 30px;
+}
+
+.septima:hover {
+  background: #3d5afe;
+  color: white;
+}

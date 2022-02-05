@@ -1,20 +1,21 @@
-import react from "react";
+import React from "react";
 import {
   BrowserRouter as Router,
   Routes,
   Route,
   Navigate,
-  BrowserRouter,
 } from "react-router-dom";
-import Page from "../Page/page";
 
-function app() {
+import Page from "../Page/page";
+import { Button } from "../Components/Buttons/button";
+
+export function app() {
   return (
     <Router>
       <Routes>
-        <Route path="/" element={<Page />} />
-        <Route path="/button" element={<Page />} />
+        <Route path="/Page" element={<Page />} />
 
+        <Route path="buttons" element={<Button />} />
         <Route path="*" element={<h1 className="notFound">404</h1>} />
       </Routes>
     </Router>

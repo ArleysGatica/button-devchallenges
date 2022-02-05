@@ -1,12 +1,18 @@
 import React from "react";
-import Sidebar from "../Components/Sidebar/sidebar";
+import {Sidebar} from "../Components/Sidebar/sidebar";
+import {Button} from "../Components/Buttons/button";
 import './page.css'
 
-function App () {
+const App =() =>{
   return (
-    <div className="Page-Container">
+    <>
+    <div className = "Page-Container"> 
       <Sidebar /> 
+    </div>,
+    <div className="Page-Container-SideBar">
+      <Button />
     </div>
+    </>
   );
 };
 
