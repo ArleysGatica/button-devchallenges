@@ -8,7 +8,6 @@ const App =() =>{
     <>
     <div className = "Page-Container"> 
       <Sidebar>
-
       <div className="Container-Button">
           <Button />
       </div>

@@ -1,10 +1,10 @@
-import React, { Children } from 'react'
+import React, {Chindren} from 'react'
 import {NavLink} from 'react-router-dom'
 import './sidebar.css'
 
 export const Sidebar =({children})=>{ {
     return (
-    
+  
         <div className='Sidebar-Container'>
           <div className="Title">
               <span>Dev</span>
@@ -23,6 +23,5 @@ export const Sidebar =({children})=>{ {
           <div className='container-item-content'>{children}</div>
         </div>
     );
-       
-    }
+ }
 } 
