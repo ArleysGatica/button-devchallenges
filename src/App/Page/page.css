@@ -1,14 +1,16 @@
 .Page-Container {
-  width: 20%;
-  height: 100%;
+  width: 1519px;
   display: flex;
   align-items: center;
-  background-color: #b90d0d;
 }
 
-.Page-Container-SideBar {
-  width: 100%;
-  height: 100%;
+.Container-Button {
+  width: 400px;
+  height: 500px;
   display: flex;
-  background-color: #b90d0d;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin-left: 20%;
+  margin-top: -90%;
 }

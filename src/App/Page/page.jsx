@@ -7,10 +7,13 @@ const App =() =>{
   return (
     <>
     <div className = "Page-Container"> 
-      <Sidebar /> 
-    </div>,
-    <div className="Page-Container-SideBar">
-      <Button />
+      <Sidebar>
+
+      <div className="Container-Button">
+          <Button />
+      </div>
+      </Sidebar>
+
     </div>
     </>
   );

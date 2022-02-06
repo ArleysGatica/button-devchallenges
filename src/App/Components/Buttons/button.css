@@ -1,6 +1,4 @@
 .Button-1 {
-  display: flex;
-  margin-left: 10%;
   padding: 10px;
   cursor: pointer;
 }
@@ -11,7 +9,6 @@
   box-shadow: 0 2px 3px rgb(51 51 51 / 20%);
   border-radius: 6px;
   border: none;
-  font-style: normal;
   font-weight: 500;
   font-size: 18px;
   line-height: 20px;
@@ -19,8 +16,8 @@
   transition: background 0.4s ease-in-out;
   color: black;
   font-family: "system-ui";
-  width: 10%;
-  height: 30px;
+  width: 100px;
+  height: 35px;
 }
 
 .primera:hover {
@@ -29,8 +26,6 @@
 }
 
 .Button-2 {
-  display: flex;
-  margin-left: 10%;
   padding: 10px;
   cursor: pointer;
 }
@@ -40,13 +35,12 @@
   color: #3d5afe;
   background: #fff;
   border-radius: 6px;
-  width: 10%;
-  height: 30px;
-  font-style: normal;
+  width: 100px;
+  height: 35px;
   font-size: 18px;
   cursor: pointer;
   line-height: 20px;
-
+  font-weight: 500;
   font-family: "system-ui";
 }
 
@@ -56,8 +50,6 @@
 }
 
 .Button-3 {
-  display: flex;
-  margin-left: 10%;
   padding: 10px;
   cursor: pointer;
 }
@@ -67,13 +59,13 @@
   color: #3d5afe;
   background: #fff;
   border-radius: 6px;
-  width: 10%;
-  height: 30px;
-  font-style: normal;
+  width: 100px;
+  height: 35px;
   font-size: 18px;
   cursor: pointer;
   line-height: 20px;
   border: none;
+  font-weight: 500;
   font-family: "system-ui";
 }
 
@@ -83,8 +75,6 @@
 }
 
 .Button-4 {
-  display: flex;
-  margin-left: 10%;
   padding: 10px;
   cursor: pointer;
 }
@@ -95,15 +85,14 @@
   box-shadow: 0 2px 3px rgb(51 51 51 / 20%);
   border-radius: 6px;
   border: none;
-  font-style: normal;
   font-weight: 500;
   font-size: 18px;
   line-height: 20px;
   cursor: pointer;
   color: #fff;
   font-family: "system-ui";
-  width: 10%;
-  height: 30px;
+  width: 100px;
+  height: 35px;
 }
 
 .cuarta:hover {
@@ -112,8 +101,6 @@
 }
 
 .Button-5 {
-  display: flex;
-  margin-left: 10%;
   padding: 10px;
   cursor: pointer;
 }
@@ -124,15 +111,13 @@
   box-shadow: 0 2px 3px rgb(51 51 51 / 20%);
   border-radius: 6px;
   border: none;
-  font-style: normal;
   font-weight: 500;
   font-size: 18px;
   line-height: 20px;
-  cursor: pointer;
   color: #fff;
   font-family: "system-ui";
-  width: 10%;
-  height: 30px;
+  width: 100px;
+  height: 35px;
 }
 
 .quinta:hover {
@@ -142,8 +127,6 @@
 }
 
 .Button-6 {
-  display: flex;
-  margin-left: 10%;
   padding: 10px;
   cursor: pointer;
 }
@@ -158,23 +141,29 @@
   font-weight: 500;
   font-size: 18px;
   line-height: 20px;
-  cursor: pointer;
   color: #9e9e9e;
   font-family: "system-ui";
-  width: 10%;
-  height: 30px;
+  width: 100px;
+  height: 35px;
 }
 
 .sexta:hover {
   color: #9e9e9e;
   background: none;
   border-radius: none;
-  transition: background 0.9s ease-in-out;
+  transition: background 0.4s ease-in-out;
+}
+
+.container-1 {
+  padding: 10px;
+  align-self: self-end;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 0%;
 }
 
 .Button-7 {
-  display: flex;
-  margin-left: 10%;
   padding: 10px;
   cursor: pointer;
 }
@@ -185,18 +174,219 @@
   box-shadow: 0 2px 3px rgb(51 51 51 / 20%);
   border-radius: 6px;
   border: none;
-  font-style: normal;
   font-weight: 500;
   font-size: 18px;
   line-height: 20px;
   cursor: pointer;
   color: #fff;
   font-family: "system-ui";
-  width: 10%;
-  height: 30px;
+  width: 100px;
+  height: 35px;
 }
 
-.septima:hover {
+.Button-8 {
+  display: flex;
+  padding: 10px;
+  cursor: pointer;
+}
+
+.octava {
+  padding: 8px 16px;
   background: #3d5afe;
+  box-shadow: 0 2px 3px rgb(51 51 51 / 20%);
+  border-radius: 6px;
+  border: none;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 20px;
+  cursor: pointer;
+  color: #fff;
+  font-family: "system-ui";
+  width: 100px;
+  height: 35px;
+}
+
+.container-2 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100px;
+  align-self: self-end;
+}
+
+.Button-9 {
+  padding: 10px;
+  cursor: pointer;
+}
+
+.novena {
+  padding: 8px 16px;
+  background: #3d5afe;
+  box-shadow: 0 2px 3px rgb(51 51 51 / 20%);
+  border-radius: 6px;
+  border: none;
+  font-weight: 500;
+  font-size: 13px;
+  line-height: 10px;
+  cursor: pointer;
+  color: #fff;
+  font-family: "system-ui";
+  width: 70px;
+  height: 35px;
+}
+
+.Button-10 {
+  display: flex;
+  padding: 10px;
+  cursor: pointer;
+}
+
+.decima {
+  padding: 8px 16px;
+  background: #3d5afe;
+  box-shadow: 0 2px 3px rgb(51 51 51 / 20%);
+  border-radius: 6px;
+  border: none;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 20px;
+  cursor: pointer;
+  color: #fff;
+  font-family: "system-ui";
+  width: 110px;
+  height: 40px;
+}
+
+.Button-11 {
+  padding: 10px;
+  cursor: pointer;
+}
+
+.undecima {
+  padding: 8px 16px;
+  background: #3d5afe;
+  box-shadow: 0 2px 3px rgb(51 51 51 / 20%);
+  border-radius: 6px;
+  border: none;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 12px;
+  cursor: pointer;
+  color: #fff;
+  font-family: "system-ui";
+  width: 100px;
+  height: 35px;
+}
+
+.container-3 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100px;
+  margin-left: 125%;
+}
+
+.Button-12 {
+  padding: 10px;
+  cursor: pointer;
+}
+
+.Grey {
+  padding: 8px 16px;
+  background: #e0e0e0;
+  box-shadow: 0 2px 3px rgb(51 51 51 / 20%);
+  border-radius: 6px;
+  border: none;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 20px;
+  cursor: pointer;
+  transition: background 0.4s ease-in-out;
+  color: black;
+  font-family: "system-ui";
+  width: 100px;
+  height: 35px;
+}
+
+.Grey:hover {
+  background: #aeaeae;
+  color: black;
+}
+
+.Button-13 {
+  padding: 10px;
+  cursor: pointer;
+}
+
+.Blue {
+  padding: 8px 16px;
+  background: #3d5afe;
+  box-shadow: 0 2px 3px rgb(51 51 51 / 20%);
+  border-radius: 6px;
+  border: none;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 20px;
+  cursor: pointer;
+  color: #fff;
+  font-family: "system-ui";
+  width: 100px;
+  height: 35px;
+}
+
+.Blue:hover {
+  background: #13258a;
+  color: white;
+}
+
+.Button-14 {
+  padding: 10px;
+  cursor: pointer;
+}
+
+.Oscuro {
+  padding: 8px 16px;
+  background: #455a64;
+  box-shadow: 0 2px 3px rgb(51 51 51 / 20%);
+  border-radius: 6px;
+  border: none;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 20px;
+  cursor: pointer;
+  color: #fff;
+  font-family: "system-ui";
+  width: 100px;
+  height: 35px;
+}
+
+.Oscuro:hover {
+  background: #1c313a;
+  color: white;
+}
+
+.Button-15 {
+  padding: 10px;
+  cursor: pointer;
+}
+
+.Red {
+  padding: 8px 16px;
+  background: #d32f2f;
+  box-shadow: 0 2px 3px rgb(51 51 51 / 20%);
+  border-radius: 6px;
+  border: none;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 20px;
+  cursor: pointer;
+  color: #fff;
+  font-family: "system-ui";
+  width: 100px;
+  height: 35px;
+}
+
+.Red:hover {
+  background: #9a0007;
   color: white;
 }

@@ -6,16 +6,16 @@ import {
   Navigate,
 } from "react-router-dom";
 
-import Page from "../Page/page";
-import { Button } from "../Components/Buttons/button";
+import App from "../Page/page";
 
 export function app() {
   return (
     <Router>
       <Routes>
-        <Route path="/Page" element={<Page />} />
+        <Route path="/" element={<App />} />
+        <Route path="/Buttons" element={<App />} />
+        <Route index element={<App />} />
 
-        <Route path="buttons" element={<Button />} />
         <Route path="*" element={<h1 className="notFound">404</h1>} />
       </Routes>
     </Router>

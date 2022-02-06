@@ -1,10 +1,10 @@
-import React from 'react'
+import React, { Children } from 'react'
 import {NavLink} from 'react-router-dom'
 import './sidebar.css'
 
-export const Sidebar =()=>{ {
+export const Sidebar =({children})=>{ {
     return (
-      <>
+    
         <div className='Sidebar-Container'>
           <div className="Title">
               <span>Dev</span>
@@ -20,8 +20,9 @@ export const Sidebar =()=>{ {
                 <li><NavLink to={'/grid'} className={({ isActive }) => isActive?'ative':''}>Grid</NavLink></li>
             </ul>
           </nav>
+          <div className='container-item-content'>{children}</div>
         </div>
-        </>
-    )
-}
+    );
+       
+    }
 } 
